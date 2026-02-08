@@ -1,28 +1,1241 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+ <docinfo/>
+ <article xml:id="doc-1">
+   <title>DGHM 110: Introduction to Digital Humanities (Spring 2026)</title>
 
-<!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  -->
-<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
-  <!-- Include common macros etc: -->
-  <xi:include href="./docinfo.ptx" />
-  <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
-  <article>
-    <title>Precalculus</title>
 
-    <subtitle>MATH 180-002 Spring 2026</subtitle>
+  
+   <introduction>
+    
+    
+    
+     <p>Welcome to Introduction to Digital Humanities! This course will help you gain a fundamental understanding of the digital humanities (DH), focusing on both the “digital” and the “humanities.” You can expect to learn concepts, methods, and tools for working with data such as literary texts, historical maps, and visual art while reflecting on what it means to do so as a humanist.</p>
+    
+   </introduction>
+  
 
-    <!-- Optional: include frontmatter with author info and date -->
-    <xi:include href="./frontmatter.ptx" />
-   
-    <xi:include href="./information.ptx" />
 
-    <xi:include href="./grading.ptx"/>
+  
+   <section xml:id="learning-objectives">
+     <title>Learning Objectives</title>
+     <p>Upon completion of this course, students will be able to:</p>
+     <p>
+       <ul>
+        
+         <li>Develop an understanding of digital humanities.</li>
+        
+         <li>Analyze digital humanities issues through the visualization of quantitative data.</li>
+        
+         <li>Apply close- and distant-reading practices to humanities issues.</li>
+        
+         <li>Gain awareness of a variety of digital tools and methods, and appropriately select from these.</li>
+        
+         <li>Gain a basic understanding of AI and refine prompting techniques.</li>
+        
+         <li>Gain awareness of a variety of DH projects that address a variety of humanities issues.</li>
+        
+         <li>Practice methods for describing humanities data, including markup languages.</li>
+        
+         <li>Communicate analysis of humanities issues through digital platforms.</li>
+        
+       </ul>
+     </p>
+   </section>
+  
 
-    <xi:include href="./policies.ptx"/>
 
-    <xi:include href="./FAQ.ptx"/>
+  
 
-    <xi:include href="./dates.ptx"/>
 
-  </article>
+  
+  
+   <section xml:id="sec-1">
+     <title>Course Description</title>
+    
+    
+           <p>Welcome to Introduction to Digital Humanities! This course will help you gain a fundamental understanding of the digital humanities (DH), focusing on both the “digital” and the “humanities.” You can expect to learn concepts, methods, and tools for working with data such as literary texts, historical maps, and visual art while reflecting on what it means to do so as a humanist. We will frequently discuss how the skills you acquire in this course can assist you in future courses as well as help prepare you for a variety of careers after graduation. Particular emphasis will be placed on critically understanding artificial intelligence.</p>
 
-  </pretext>
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-2">
+     <title>Course Goals, Learning Objectives, and Competencies</title>
+    
+    
+           <p>The following are the main goals for the course, along with learning outcomes and career competencies you can expect to develop. Please note that while these are the goals and competencies that we will most explicitly focus on—and associated learning outcomes are included in the course schedule—we will certainly touch on others. Goals and competencies will be addressed through both formal assignments and less formal exercises.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-3">
+     <title>Course Texts and Additional Resources</title>
+    
+    
+           <p><em>Required Text:</em> Ahmed Bouchentouf: <em>The Prompt Recipe: A Practical Guide to Prompt Engineering and AI Interaction</em> (breadbooks, 2025)</p>
+     <p><em>Optional Text:</em> Johanna Drucker, <em>The Digital Humanities Coursebook: An Introduction to Digital Methods for Research and Scholarship</em> (Routledge, 2021). I have scanned relevant chapters and have made these available through Canvas, but you may choose to purchase a hard copy if you prefer.</p>
+     <p><em>Additional course materials:</em> These include online readings, digital tools, and DH projects, which are all freely available online. Links are provided in the syllabus and on our course Canvas site.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-4">
+     <title>Assignments and Grade Breakdown</title>
+    
+    
+           <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>Assignment</cell>
+         <cell>Semester Percentage</cell>
+       </row>
+       <row>
+         <cell>AI Prompt Engineering</cell>
+         <cell>10%</cell>
+       </row>
+       <row>
+         <cell>StoryMap Essay</cell>
+         <cell>10%</cell>
+       </row>
+       <row>
+         <cell>Midterm Exam</cell>
+         <cell>10%</cell>
+       </row>
+       <row>
+         <cell>Final Exam</cell>
+         <cell>10%</cell>
+       </row>
+       <row>
+         <cell>Quizzes</cell>
+         <cell>10% (10 x 1% each)</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>30% (15 x 2% each)</cell>
+       </row>
+       <row>
+         <cell>In-Class Attendance and Participation</cell>
+         <cell>20%</cell>
+       </row>
+     </tabular>
+     <p><em>Prompt Engineering</em>: You will have an opportunity to practice AI prompt engineering in depth as you create a text-based product (e.g. a lesson plan or a podcast script).</p>
+     <p><em>StoryMap Essay</em>: Near the end of the semester, you will have an opportunity to create an online multimedia essay using ArcGIS StoryMaps. Steps will include researching a topic, writing text, gathering or generating images and other multimedia elements, and making decisions about web design.</p>
+     <p><em>Midterm Exam</em>: Near the midpoint of the semester, you will have an opportunity to demonstrate your knowledge of digital humanities topics as you take an in-class midterm exam.</p>
+     <p><em>Final Exam</em>: At the end of the semester, you will have an opportunity to demonstrate your comprehensive knowledge of digital humanities topics, as you take a final exam.</p>
+     <p><em>Quizzes</em>: You will be responsible for multiple Canvas quizzes over the course of the semester. These quizzes are designed to help you identify core concepts from the assigned reading that will allow you to effectively participate in class discussion and activities. You will have an opportunity to drop some of your lowest scores (or choose to not take some quizzes).</p>
+     <p><em>Responses</em>: You will have many opportunities to submit Canvas responses over the course of the semester. These responses will be low-stakes opportunities to try out a variety of DH tools and methods, and to reflect on these methods. These responses will often be started in class, arising from and providing a basis for further class discussion. You will have an opportunity to drop some of your lowest scores (or choose to not complete all responses).</p>
+     <p><em>Attendance and Class Participation</em><em>:</em> This portion of your grade is designed to help ensure regular and timely attendance, as well as full participation in class conversation and activities, while acknowledging occasional extenuating circumstances. Attendance and participation are worth 20% of your final grade and you will receive an attendance and participation grade at both the midpoint and conclusion of the semester.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-5">
+     <title>Assignment Submissions</title>
+    
+    
+           <p>Because this is a cumulative course in which content and skills build off of what we have previously learned, it is important for your own intellectual progress and for that of your classmates that you submit all assignments (including quizzes and responses) on time and for these same reasons, I am dedicated to providing timely feedback. In particular, please note the following:</p>
+     <p>·     <em>Quizzes</em> are designed to help you check your basic understanding of concepts in preparation for further discussion and practice and are therefore due at the beginning of class on the day for which reading was assigned. Quiz due dates are noted in the syllabus and should be completed through Canvas. Quizzes cannot be made up you may retake them as many times as you would like until they are due and a limited number of your lowest quiz scores will be dropped.</p>
+     <p>·     <em>Responses</em> give you opportunities to reflect on class discussions and to formalize work done in class. Response due dates are noted in the syllabus. Since there may be additional questions regarding these responses, there is a one-week grace period for submitting these responses, but I strongly encourage you to not treat this as the de-facto due date so that you are sure to submit everything on time. A limited number of your lowest response scores will be dropped.</p>
+     <p>·     <em>Formal Assignments</em> are due on the date indicated on the syllabus. These assignments will lose 10% of their final grade for each day (not class day) they are late unless prior arrangements have been made for exceptional circumstances.</p>
+     <p>·     <em>Exams</em> will be completed in our classroom during class or the final exam period unless other accommodations have been made.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-6">
+     <title>Class Preparation</title>
+    
+    
+           <p>The general rule at FSU for time spent preparing for class is a <em>minimum of two hours of preparation time for every class hour</em>; thus, you should spend a minimum of eight hours a week preparing for this class. During weeks when you have a major assignment due, you may need more time. You can effectively participate by doing the reading (annotating your text as you read with your comments, questions, and reactions), listening to lectures, taking quizzes, working in class, and completing responses. You should feel free to contact me about any difficulties you may have keeping up with the course material.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-7">
+     <title>Laptop, Cell Phone, Headphone, and Other Device Usage</title>
+    
+    
+           <p>In accordance with FSU policy, you should have a laptop available to complete in-class and out-of-class activities. An advanced tablet may be sufficient but less ideal. If you do not currently have access to a laptop, please let me know and I will help you procure one.</p>
+     <p>
+       <ul>
+         <li><em>Cell Phones:</em> Cell phones are not acceptable for classwork and are incredibly distracting for me as an instructor and for others in the classroom. They are therefore prohibited entirely from classroom use—this includes when we are working individually or in small groups.  If you need to use your cell phone for some reason, please leave the classroom entirely—I will assume that whatever you need to do on your phone is more pressing than what we are doing in class (for example, you are expecting an important text from a family member). I will remind you of this fact as necessary.</li>
+         <li><em>Laptops/Tablets</em>: Since laptops and other devices can be used for both academic and other activities (e.g. watching unrelated videos), please be sure to use them for our class activities while in class so that you do miss important information that may not be easily repeated.</li>
+         <li><em>Headphones</em>: Please do not use headphones while we are in classroom discussion or small-group work, but there may be some limited opportunity to do this while doing individual work. If you need an accommodation beyond this, please let me know.</li>
+       </ul>
+     </p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-8">
+     <title>Asynchronous Class</title>
+    
+    
+           <p>Rather than introduce new material in our fourth asynchronous class hour, this hour should be used to complete reading and assignments for the upcoming class period, which will often be more substantial than those due at other times in the week.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-9">
+     <title>Important Note about the Reading</title>
+    
+    
+           <p>You must do all of the assigned reading to gain basic knowledge and to lay the foundation for your own learning. Since we aim to spend much of our class time working through concepts, we may only briefly overview the reading at times, but it is crucial that you complete this reading so that you have a basic understanding of these concepts coming into class. You will be responsible for multiple quizzes to help ensure you have a sense of core concepts.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-10">
+     <title>Academic Honesty</title>
+    
+    
+           <p>Your work must comply with the College Policy Regarding Academic Honesty stated in the College Catalogue. Plagiarism, the use of someone else’s words or ideas as if they were your own, is a serious offense. Consult the Writing Guide at CASA for definitions of plagiarism and examples of correct ways to document summaries, paraphrases, or quotations from the work of others. The penalties for plagiarism vary according to the extent of the offense. <em>A completely plagiarized essay will result in an F for the whole course.</em> I will report plagiarism to the Dean of Students, who maintains a database of students who have plagiarized essays or cheated on examinations. I hope that no one in this class will even consider plagiarizing, but speak with me about any problems you may have about achieving the results you hope to get from this course.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-11">
+     <title>Disability and Support Services</title>
+    
+    
+           <p>Framingham State University offers equal opportunities to all qualified students, including those with disabilities and impairments. The University is committed to making reasonable accommodations as are necessary to ensure that its programs and activities do not discriminate, or have the effect of discriminating, on the basis of disability. The Center for Academic Success and Achievement (CASA) serves students with learning and psychiatric disabilities as well as students with visual, mobility, and hearing impairments. It is also a valuable resource for overall academic success.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-12">
+     <title>Difficult Course Material</title>
+    
+    
+           <p>We will encounter a variety of material over the course of this semester— some of which might include disturbing language and themes. I encourage you to keep an open mind about course material and to speak with me about any concerns that you may have.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-13">
+     <title>Email Responses</title>
+    
+    
+           <p>I am happy to answer short questions through email. You should, however, consider your email a professional electronic communication—and practice for professional communications you will be sending in the future—so that you formally address me, use full sentences with correct spelling and punctuation, and append your name at the end. I will generally respond to emails quickly, but you should give me at least 24 hours before sending a follow-up message. You should also not expect to receive an answer to an email sent the night before our class meets.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-14">
+     <title>Office Hours</title>
+    
+    
+           <p>One-on-one discussion during office hours is one of the most important, and generally underutilized, resources available to students. It allows you to develop a rapport with your instructor, where you can receive clarification and elaboration on ideas presented in class, where you can better understand their expectations for you and for the course, and—just as importantly—where you can allow them to get to know you on a more personal level. This can be invaluable down the road when you need academic or career advice or a letter of recommendation. I encourage you to visit my office hours, where we can discuss your general class performance along with any particular questions you may have.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-15">
+     <title>Recording Classes</title>
+    
+    
+           <p>Access to video and audio recordings in this class is for personal educational use only and is available only to individuals currently enrolled in the class, unless faculty permission is expressly granted. Recording and/or sharing course materials, including video and audio files, without the written consent of the course instructor is a violation of University policies (ex. academic honesty) and will be reported to the College Dean for further action and/or discipline.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-16">
+     <title>Land Acknowledgement</title>
+    
+    
+           <p>We acknowledge that the land we live, work, learn, and commune on is the original homeland of the Nipmuc tribal nations. We acknowledge the painful history of genocide and forced removal from this territory, and we honor and respect the many diverse Indigenous peoples still connected to this land on which we gather.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-17">
+     <title>Antiracism Commitment</title>
+    
+    
+           <p>At Framingham State University, faculty, staff, and students work together to sustain a learning, working, and living community free from hate, discrimination, harassment, and intolerance. We recognize the damaging effects of systemic racism—including policies, structures, and historic practices—on the experience and success of communities of color. Coming from different backgrounds and different levels of privilege, we can all affirm and engage in antiracist work. Diversity of voices, and of minds, strengthens our ability to solve problems and to ask and answer questions about the world we share. As your instructor, I commit to upholding community values of inclusion, civility, accessibility, and mutual respect. I expect this class to commit to creating a community that affirms and welcomes all persons from diverse backgrounds and experiences, and supports the realization of everyone’s potential.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-18">
+     <title>Artificial Intelligence Use</title>
+    
+    
+           <p>As generative and agentic AI become increasingly common (already embedded in many research and communication tools we have come to rely on), you will be expected to be proficient in these technologies during your time at FSU and in your future careers. To help you gain this proficiency, you will have multiple opportunities to learn about and with AI in this course. This learning involves not only delivering AI-assisted products, but also demonstrating intellectual processes and developing habits of mind that will allow you to most effectively and critically work with AI (e.g. editing AI-generated text for accuracy, and being aware of biases and resource use). You are therefore encouraged to use AI in this course as appropriate, but need to be transparent in how you do so, acknowledging how and when you use it (specific assignments will often have further citation details). Keep in mind that while AI is increasingly less prone to factual inaccuracies, biases, and “hallucinations,” these do still happen and as the final editor of your work, you are ultimately responsible for what you submit. Additionally, just as I see value in students using AI, I will also use it in my teaching (e.g. developing lesson plans and assignments, and streamlining grading) and assume the same ultimate responsibility for my own AI use. If you have any questions about any of this, please feel free to come speak with me. Please also be aware that these are the policies surrounding AI usage for this particular course. Other courses may have different policies and you should consult the stated policies for that course or ask for clarification from your instructor as needed.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-19">
+     <title>Syllabus Adaptations and Revisions</title>
+    
+    
+           <p>While I don’t expect to make major changes to the syllabus, I also want to be attentive to the particular needs of the class. Therefore, it is quite possible that I will add some sample projects (or even short readings) to help further clarify our understanding of core concepts, and may de-emphasize other resources. I will give you as much notice about this as I can. Feel free to suggest additional resources as well.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-20">
+     <title>Policy Exceptions</title>
+    
+    
+           <p>I understand that things come up. You may unexpectedly be absent for a week due to an illness or family emergency. You may know that you will perpetually be late for a particular class day (your previous class is across campus, etc.). Some of you may be uncomfortable speaking in front of others, but don’t feel that this is an indication of your preparedness and would like to find ways to participate. You may need special assistance to facilitate your learning experience. Please come speak to me. I am happy to work with you and to best facilitate your learning, but will best be able to do so if we can come to an agreement at the outset of the course, or as soon as an issue arises, rather than dealing with things after the fact. By the same token, should I need to significantly modify anything in this syllabus or course schedule, I will be certain to give you as much notice as possible.</p>
+
+
+
+
+    
+
+
+    
+
+
+    
+   </section>
+  
+  
+   <section xml:id="sec-21">
+     <title>Course Schedule</title>
+    
+    
+    
+
+
+    
+
+
+    
+
+
+    
+     <subsection xml:id="sec-21-sub-1">
+       <title>Week One (1/19-1/23): Introductions and Digital Basics</title>
+             <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Gain familiarity with course, instructor, and fellow students. Identify course learning objectives and career competencies. Understand course syllabus and expectations. Gain an initial understanding of “Digital” and “humanities” as course concepts.</cell>
+       </row>
+       <row>
+         <cell>Competencies</cell>
+         <cell>Gain an initial understanding of career competencies.</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Icebreaker and Introductions. Course Overview. Review course syllabus. Discuss digital humanities.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Beginning of Course Survey and add image/profile to Canvas and Starfish Class Introduction (due 1/22)</cell>
+       </row>
+     </tabular>
+     <p>T (1/20): Introductions and Course Overview</p>
+     <p>R (1/22): Digital Basics</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify and describe major elements of the computer operating system.</cell>
+       </row>
+       <row>
+         <cell>Competencies</cell>
+         <cell>Communicate in pairs and small groups.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell><url href="https://edu.gcfglobal.org/en/computerbasics/getting-to-know-the-os/1/">Getting to Know your Computer’s OS</url>       <url href="https://umvel.medium.com/a-brief-history-of-interface-design-2b7147f0c3a7">A Brief History of Interface Design</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/778300">History of User Interfaces</url></cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://framingham.instructure.com/courses/14982/modules/items/778301">Bored Panda: Interfaces</url> <url href="https://www.meta.com/ai-glasses/?utm_source=gg&amp;utm_medium=ps&amp;utm_campaign=20576653139&amp;utm_term=ai%20glasses&amp;utm_content=774261501012&amp;utm_ad=172285408965&amp;utm_location=9001858&amp;utm_location2=&amp;utm_placement=kwd-325808624154&amp;utm_device=c&amp;utm_matchtype=b&amp;utm_feed=&amp;utm_adposition=&amp;utm_product=&amp;ads_rl=9213737374&amp;&amp;gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20576653139&amp;gclid=CjwKCAiAssfLBhBDEiwAcLpwfkLe6LcI8SxivaaEmR75s6Mi-E4FxNvH2TfjtYED6NcbsfWiEBw9aRoC834QAvD_BwE">Meta AI Glasses</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>OS pair and share. Play with Interfaces.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Interface (due 1/27).</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-2">
+       <title>Week Two (1/26-1/30): Digital Humanities and Data/Metadata</title>
+             <p>T (1/27): Digital Humanities Overview</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key aspects of DH, including Materials, Processing, and Presentation. Begin to understand critical digital humanities.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Drucker: “Digital Humanities Overview” (DHC, 1-8)</cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Digital Humanities Overview (due 1/27)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/751500">Notebook LM: Drucker Chapters</url> <url href="https://www.slavevoyages.org/">Slave Voyages</url> <url href="https://coloredconventions.org/">Colored Conventions Project</url> <url href="https://unsilencing-slavery.org/">(Un)Silencing Slavery</url> <url href="https://americanindian.si.edu/nk360/removal/#reflectingPage">Impact of Native American Removal</url>  <url href="https://framingham.instructure.com/courses/8974/modules/items/466278">Plateau Peoples&#x27; Web Portal</url> <url href="https://ecda.northeastern.edu/">Early Caribbean Digital Archive</url> <url href="https://www.saada.org/">South Asian American Digital Archive</url> <url href="https://usldhrecovery.uh.edu/">Recovering the US Hispanic Literary Heritage Digital Collections</url> <url href="https://www.digitaltransgenderarchive.net/">Digital Transgender Archive</url> <url href="https://digitalbenin.org/">Digital Benin</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Discuss Materials, Processing, and Presentation in DH Projects.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Respond to a DH project (due 2/3)</cell>
+       </row>
+     </tabular>
+     <p>R (1/29): Data and Metadata</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify a variety of data formats. Describe in general ways how data is modeled. Obtain images from appropriate sources. Interpret and annotate images.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Drucker: “Data Modeling and Use” (DHC, 19-27) Drucker: “Metadata and Classification” (DHC, 52-61)</cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Data Modeling and Use (due 1/29) Metadata and Classification (due 1/29)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell>Google Sheets <url href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</url> <url href="https://www.loc.gov/photos/collections/">Library of Congress</url> <url href="https://dp.la/">dp.la</url> <url href="https://www.digitalcommonwealth.org/">Digital Commonwealth</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Spreadsheets and data modeling. Basic understanding of data and metadata. Locate images online.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Data Modeling Scenario (due 2/3) Online Image Location (due 2/3)</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-3">
+       <title>Week Three (2/2-2/6): Data Visualization</title>
+             <p>T (2/3): Data Visualization</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify a variety of data formats. Interpret data visualizations. Create visualizations from DH data, including charts and graphs. Describe patterns within and across DH data.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Drucker: “Basics of Visualization” (86-101) <url href="https://www.atlassian.com/data/charts/essential-chart-types-for-data-visualization">Essential Chart Types for Data Visualization</url></cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Visualization Basics (due 2/3)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://workspace.google.com/products/sheets/">Google Sheets</url> <url href="https://educationdata.org/college-enrollment-statistics">College Enrollment &amp; Student Demographic Statistics</url> <url href="https://www.google.com/publicdata/directory">Google Public Data Directory</url> <url href="https://www.chartgo.com/files/templates.html">ChartGo</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Analyze Data Visualizations Create Data Visualizations with Google Sheets</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>Data Visualization (2/5)</cell>
+       </row>
+     </tabular>
+     <p>R (2/5): Networks</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify a variety of data formats. Interpret data visualizations. Obtain data from appropriate sources. Create visualizations from DH data, including charts and graphs. Describe patterns within and across DH data.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Drucker: “Networks and Complex Systems” (101-109)</cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Visualization Basics and Networks (due 2/5)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://csacademy.com/app/graph_editor">CS Academy Graph Editor</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Analyze and create networks.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>Network Graph (due 2/10)</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-4">
+       <title>Week Four (2/9-2/13): Temporal-Spatial Visualization</title>
+             <p>T (2/10): Timelines</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of timelines. Create visualizations from DH data, including timelines.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell><url href="https://timeline.knightlab.com/">Timeline.js</url></cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://timeline.knightlab.com/">Timeline.js</url> <url href="https://www.ferris.edu/HTMLS/news/jimcrow/timeline/homepage.htm">Jim Crow Museum Timeline</url> <url href="https://chicanapormiraza.org/content/visualizations">Chicana Por Mi Raza Timelines</url> <url href="https://www.journal18.org/nq/blackness-immobility-visibility-in-europe-1600-1800-a-collaborative-timeline/">Blackness, Immobility, &amp; Visibility in Europe (1600-1800) – A Collaborative Timeline</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Create a timeline as a class and individually.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Timeline.js (due 2/12)</cell>
+       </row>
+     </tabular>
+     <p>R (2/12): Mapping</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of mapping and GIS. Interpret spatial representation of DH data. Identify key elements of mapping and GIS.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>“Mapping and GIS” (DHC, 130-150)</cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Mapping and GIS (due 2/12)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://sarahemilybond.com/2017/10/20/mapping-racism-and-assessing-the-success-of-the-digital-humanities/">Mapping Racism and Assessing the Success of the Digital Humanities</url> <url href="https://belonging.gis-cdn.net/us_segregation_map/?year=2020">The Roots of Structural Racism Project Map</url> <url href="http://sameboats.org/">In the Same Boats</url> <url href="https://www.mappingmarronage.com/">Mapping Marronage</url> <url href="https://dsl.richmond.edu/emancipation/">Visualizing Emancipation</url> <url href="https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58">Mapping Inequality: Redlining in New Deal America</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747699">Torn Apart/ Separados</url> <url href="https://www.arcgis.com/index.html">ArcGIS Online</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Critical evaluation of DH mapping projects. Create ArcGIS Maps.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Create an ArcGIS map (due 2/17).</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-5">
+       <title>Week Five (2/16-2/20): Data Mining, Text Analysis, and Distant Reading</title>
+             <p>T (2/17): Data Mining and Text Analysis</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of data mining and text analysis. Interpret keyword trends using Google Ngrams. Describe patterns within and across DH data.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>“Data Mining and Text Analysis” (DHC, 110-120) <url href="https://books.google.com/ngrams/info">About Google Ngrams</url></cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Data Mining and Text Analysis (due 2/17)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://books.google.com/ngrams">Google Ngrams</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Tracing keywords with Google Ngrams.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Google Ngram Interpretation (due 2/19)</cell>
+       </row>
+     </tabular>
+     <p>R (2/19): Voyant Tools</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Obtain data from appropriate sources. Interpret a text or small corpus of texts through distant reading. Apply data in a variety of formats to analyze humanities questions.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell><url href="https://voyant-tools.org/docs/tutorial-start.html">Voyant Tools Guide</url></cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://www.gutenberg.org/ebooks/bookshelf/">Project Gutenberg Bookshelf</url> Voyant Tools</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Create and interpret visualizations of texts, using Voyant Tools.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Voyant Tools Visualization and Interpretation (due 2/24)</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-6">
+       <title>Week Six (2/23-2/27): Introducing AI</title>
+             <p>T (2/24): AI Chatbots</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Understand the basics of AI usage. Understand institutional policies around AI.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747874">Module Overview \- AI Chatbots</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747875">AI Baseline Survey</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747876">Section 1: Understanding AI Chatbots in Academic Context</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747877">Before you use a Chatbot</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747879">Section 2: Academic Integrity and Ethical Use</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747881">Section 3: Ways to use Chatbots</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747882">Section 4: Effective Prompting Techniques</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747883">Section 5: Critical Evaluation of AI Responses</url></cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Thinking about How and When to use AI (due 2/24)</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Discuss AI usage. Practice using chatbots.</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747710">Microsoft Copilot</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747711">OpenAI&#x27;s ChatGPT</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747712">Google Gemini</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/768169">Latimer AI</url></cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Exploring Chatbot Capabilities and Limitations (due 2/26)</cell>
+       </row>
+     </tabular>
+     <p>R (2/26): Machine Learning and AI Under the Hood</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Deepen basic understanding of AI and machine learning. Understand importance of the Iris dataset. Understand importance of the MNIST/ Fashion MNIST dataset.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Kneusel: “And Away We Go: An AI Overview” (5-23)</cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>AI Overview (due 2/26)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_iris.html">Scikit-learn Iris Dataset</url> <url href="http://mlvis.com/iris.php#panel-body">mlvis.com Iris Dataset</url> <url href="https://mco-mnist-draw-rwpxka3zaa-ue.a.run.app/">MNIST Interactive Digit Recognizer (1)</url>   <url href="https://www.ccom.ucsd.edu/~cdeotte/programs/MNIST.html">MNIST Interactive Digit Recognizer (2)</url> <url href="https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html">MNIST Training Demo</url> <url href="https://github.com/zalandoresearch/fashion-mnist?tab=readme-ov-file">Fashion MNIST</url> <url href="https://adamharley.com/nn_vis/">Interactive Node-Link Visualization of Convolutional Neural Networks</url>.</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Investigate the Iris, MNIST and Fashion MNIST datasets.</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-7">
+       <title>Week Seven (3/2-3/6):</title>
+             <p>T (3/3): Neural Networks I</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Gain an understanding of neural networks as a particular kind of AI.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell><url href="https://framingham.instructure.com/courses/14982/modules/items/785495">Geek for Geeks: Artificial Neural Networks</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747707">Financial Times: Generative AI Works Because of the Transformer</url></cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://framingham.instructure.com/courses/14982/modules/items/787002">RNN Explainer</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/787003">Tensorflow Playground</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/787001">Transformer Explainer</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/787000">LLM Visualization</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Discuss neural networks.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Respond to an AI interactive visualization (10/15)</cell>
+       </row>
+     </tabular>
+     <p>R (3/5): Neural Networks II</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of prompt engineering. Deepen understanding of AI biases.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Bender &amp; Hannah: “How Large Language Models Actually Work” (AI Con, 23-28) <url href="https://www.ibm.com/think/topics/algorithmic-bias#:~:text=Algorithmic%20bias%20occurs%20when%20systematic,socioeconomic%2C%20racial%20and%20gender%20biases">What is Algorithmic Bias?</url></cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747710">Microsoft Copilot</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747711">OpenAI&#x27;s ChatGPT</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747712">Google Gemini</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/768169">Latimer AI</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Interact with generative AI.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>Generative AI prompt.</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-8">
+       <title>Week Eight (3/9-3/13): Midterm Review and Exam</title>
+      
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-9">
+       <title>Week Nine (3/16-3/20): Spring Break</title>
+      
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-10">
+       <title>Week Ten (3/23-3/27): Prompt Engineering for Generative AI I</title>
+             <p>T (3/24): Introduction to AI Prompting and Inside the AI’s Mind</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of prompt engineering.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Bouchentouf: “Introduction” (PR, 7-27) and “Chapter 1: Inside the AI’s Mind” (PR, 28-54). Crawford: “The Myth of Clean Tech” (Atlas, 41-46) Bender &amp; Hannah: “AI is Hastening the Climate Catastrophe” (AI Con, 156-161)</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Interact with generative AI.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>Generative AI prompts.</cell>
+       </row>
+     </tabular>
+     <p>R (3/26): The First Ingredient is Clarity</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of prompt engineering.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Bouchentouf: “Chapter 2: The First Ingredient is Clarity” (PR, 55-89) Crawford: “Potemkin AI and the Mechanical Turks” (Atlas, 63-69) Bender &amp; Hannah: “AI is Always People” (AI Con, 58-64)</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Interact with generative AI.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>SMARTE Objective and 5W+H (due 3/31)</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-11">
+       <title>Week Eleven (3/30-4/3): Prompt Engineering for Generative AI II</title>
+             <p>T (3/31): The Art of the Recipe Card and the Precision of Grammage</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of prompt engineering.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Bouchentouf: “Chapter 3: The Art of the Recipe Card” (PR, 90-120) and “Chapter 4: The Precision of Grammage” (PR, 121-146) Lynne: “<url href="https://rotel.pressbooks.pub/readwritesuccess/chapter/blooms-and-generative-ai/">Bloom’s and Generative AI</url>” Bender &amp; Hannah: “AI and Art Making” (AI Con, 103-112)</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Interact with generative AI.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>CROFTC Template (due 4/2)</cell>
+       </row>
+     </tabular>
+     <p>R (4/2): Taste, Adjust, Repeat</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of prompt engineering.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>Bouchentouf: “Chapter 5: Taste, Adjust, Repeat” (PR, 147-171) Narayan &amp; Kapoor: “Predictions in Criminal Justice” (AISO, 78-81) <url href="https://www.ohchr.org/en/stories/2024/07/racism-and-ai-bias-past-leads-bias-future">United Nations: Racism and AI: “Bias from the past leads to bias in the future”</url> <url href="https://time.com/7295195/ai-chatgpt-google-learning-school/">ChatGPT May Be Eroding Critical Thinking Skills, According to a New MIT Study</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Interact with generative AI.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>AI Response Analysis Checklist (due 4/6)</cell>
+       </row>
+       <row>
+         <cell><em>Assignment</em></cell>
+         <cell><em>AI Prompting</em></cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-12">
+       <title>Week Twelve (4/6-4/10): Working with Visuals</title>
+             <p>T (4/7): ThingLink</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Obtain images from appropriate sources. Interpret and annotate images.</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</url> <url href="https://www.loc.gov/photos/collections/">Library of Congress</url> <url href="https://dp.la/">Digital Public Library of America</url> <url href="https://www.digitalcommonwealth.org/">Digital Commonwealth</url> <url href="https://www.thinglink.com/en-us/">ThingLink</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Create ThingLink annotations.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>ThingLink annotation of an image (due 4/9)</cell>
+       </row>
+     </tabular>
+     <p>R (4/9): Generating AI Images</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of generative AI. Create images using generative AI.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>“<url href="https://hub.researchgraph.org/the-comprehensive-guide-to-mastering-prompt-techniques-in-stable-diffusion/">The Comprehensive Guide to Mastering Prompt Techniques in Stable Diffusion</url>” Nicoletti and Bass: “<url href="https://www.bloomberg.com/graphics/2023-generative-ai-bias/">Humans are Biased. Generative AI is Even Worse</url>” Growcoot: “<url href="https://petapixel.com/2023/05/04/ai-reveals-its-biases-by-generating-what-it-thinks-professors-look-like/">AI Reveals its Biases by Generating what it Thinks Professors Look Like</url>” Parshall: “<url href="https://www.scientificamerican.com/article/how-my-ai-image-won-a-major-photography-competition/#:~:text=But%20the%20artist%2C%20Berlin,an%20artificial%20intelligence%20image%20generator">How This AI Image Won a Major Photography Competition</url>”</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://stablediffusionweb.com/">Stable Diffusion Online</url> <url href="https://thispersondoesnotexist.com/">This Person Does Not Exist</url> <url href="https://detectfakes.kellogg.northwestern.edu/">Detect Fakes</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Generate AI images.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>AI image generation (due 4/14).</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-13">
+       <title>Week Thirteen (4/13-4/17): Games, interactivity, and extended reality</title>
+             <p>T (4/14): Games as Cultural Critique</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Gain an understanding of video games as cultural critique.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell><url href="https://en.wikipedia.org/wiki/Universal_Paperclips">Universal Paperclips (Wikipedia)</url> <url href="https://www.neveralonegame.com/">Never Alone</url></cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://www.decisionproblem.com/paperclips/index2.html">Universal Paperclips</url> <url href="https://www.survivalofthebestfit.com/game/">Survival of the Best Fit</url> <url href="https://pudding.cool/2024/10/abortion-mazes/">Abortion Mazes</url> <url href="https://www.mission-us.org/">Mission US</url> <url href="https://www.gamesforchange.org/">Games for Change</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Discuss video games as cultural critique. Play video games.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Play a Game (due 4/16)</cell>
+       </row>
+     </tabular>
+     <p>R (4/16): 3D and Virtual Models</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key data formats. Identify a variety of methods for digitizing humanities objects. Describe a variety of methods for digitizing humanities objects, using appropriate terminology. Describe experience in a virtual reality space.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>“Three-Dimensional and Virtual Models” (DHC, 151-171) <url href="https://digitaleducation.stanford.edu/news/virtual-reality-experience-aims-raise-personal-awareness-racisms-effects">1000 Cut Journey Article</url> <url href="https://www.axios.com/2023/05/15/new-vr-role-playing-insight-racism">In New VR, Role-Playing gives Insight into Racism</url></cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Three-Dimensional and Virtual Models (due 4/16)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://framingham.instructure.com/courses/15406/modules/items/747782">Public VR</url> <url href="https://vsim.library.ucla.edu/xmlui/">VSim</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747785">ArcGIS Slave Cemetery 3D</url> <url href="http://etc.ucla.edu/projects/augustan-rome/">Augustan Rome</url> <url href="https://sketchfab.com/rla-archaeology">Sketchfab RLA Archaeology</url> <url href="https://mcid.mcah.columbia.edu/art-atlas/mapping-gothic/">Mapping Gothic France</url> <url href="http://giza.fas.harvard.edu/">Digital Giza</url> <url href="https://digitalkarnak.ucsc.edu/browse-archive/">Digital Karnak</url> <url href="https://framingham.instructure.com/courses/8974/modules/items/464537">Virtual Harlem</url> <url href="https://nowisthetime.time.com/">MLK: Now is the Time</url> <url href="https://about.meta.com/community/vr-for-good/the-march-360/">The March 360</url> <url href="https://www.meta.com/experiences/6955891684483867/">1000 Cut Journey</url> <url href="https://framingham.instructure.com/courses/15406/modules/items/747780">YouTube: Tupac Coachella Hologram</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>3D scanning, photography, and photogrammetry. Experience extended and immersive reality.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>Reflection on extended and immersive reality (due 4/21)</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-14">
+       <title>Week Fourteen (4/20-4/24): Under the Hood: Markup Languages</title>
+             <p>T (4/21):HTML and XML Encoding</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify HTML and XML as markup languages. Apply markup to humanities data.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell>“Digital Documents: Formats and Protocols” (DHC, 34-43) “Markup: XML, TEI, KML, JSON, and Other Standards” (DHC, 61-69)</cell>
+       </row>
+       <row>
+         <cell>Quiz</cell>
+         <cell>Digital Documents: Formats and Protocols (due 4/14) Markup: XML, TEI, KML, JSON, and Other Standards (due 4/14)</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://www.w3schools.com/html/">W3 Schools HTML Tutorial</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/752736">MAPS</url> <url href="https://framingham.instructure.com/courses/14982/modules/items/752737">MAPS (Legacy)</url> <url href="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text Encoding Initiative</url> <url href="https://wwp.northeastern.edu/outreach/resources/tutorial_all.html">WWP TEI Tutorials</url> <url href="http://tapasproject.org/">TAPAS Project</url> <url href="https://teibyexample.org/TBE.htm">TEI By Example</url> <url href="https://digital-editing.fas.harvard.edu/editor/">TEI Web Editor</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>HTML and XML encoding.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>HTML and XML Encoding (due 4/23)</cell>
+       </row>
+     </tabular>
+     <p>R (4/23): Markdown and Twine</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Identify key elements of interactive narratives and video games. Create a simple Twine narrative.</cell>
+       </row>
+       <row>
+         <cell>Readings</cell>
+         <cell><url href="https://framingham.instructure.com/courses/8974/modules/items/464514">The Basics of Twine</url></cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://twinery.org/">Twine</url> <url href="https://twine2.neocities.org/">Harlowe Manual</url> <url href="https://itch.io/">itch.io </url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Discuss markdown and Twine. Create a simple Twine narrative/game.</cell>
+       </row>
+       <row>
+         <cell>Response</cell>
+         <cell>Create a Twine Narrative/ Game (due 4/28)</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-15">
+       <title>Week Fifteen (4/27-5/1): StoryMap Essays</title>
+             <p>T (4/28): StoryMap Essays</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Deepen understanding of a humanities issue. Better understand humanities StoryMaps. Practice multimodal writing with StoryMaps.</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://storymaps.arcgis.com/stories">ArcGIS StoryMaps</url> <url href="https://doc.arcgis.com/en/arcgis-storymaps/gallery/?categories=%2Fcategories%2Fcontent%20type%2Fcollection">ArcGIS StoryMaps Gallery</url> <url href="https://storymaps.arcgis.com/stories/212f360b57fa420b84929a48dc1c8ee1">StoryMap: Jewish Immigration into Framingham</url> <url href="https://storymaps.arcgis.com/stories/5c4d2a96c8fe4aa4b0654ff9d61745df">StoryMap: Saxonville Walkthrough</url> <url href="https://storymaps.arcgis.com/stories/49a73a33837c4568a845325c9632e9c0">StoryMap: History of Immigration into Framingham</url></cell>
+       </row>
+       <row>
+         <cell>Video</cell>
+         <cell><url href="https://www.youtube.com/watch?v=aVPUQTRrdfU">How to Create an ArcGIS StoryMap in under 10 Minutes</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Critically examine digital humanities StoryMaps. Draft StoryMap essays.</cell>
+       </row>
+     </tabular>
+     <p>R (4/30): StoryMap Essays</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Deepen understanding of a humanities issue. Practice multimodal writing with StoryMaps.</cell>
+       </row>
+       <row>
+         <cell>Resources</cell>
+         <cell><url href="https://storymaps.arcgis.com/stories">ArcGIS StoryMaps</url></cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Draft StoryMap essays.</cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+     <subsection xml:id="sec-21-sub-16">
+       <title>Week Sixteen (5/4-5/8): Class Review</title>
+             <p>T (5/5): Class Review</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Review digital humanities objectives.</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Draft StoryMap essays. Review course material and objectives.</cell>
+       </row>
+       <row>
+         <cell>Responses</cell>
+         <cell>Letter to a future employer (due 5/7)</cell>
+       </row>
+     </tabular>
+     <p>R (5/7): Class Review</p>
+     <tabular bottom="minor" top="minor" left="minor" right="minor">
+       <row>
+         <cell>DH LOs</cell>
+         <cell>Review digital humanities objectives.</cell>
+       </row>
+       <row>
+         <cell>Activities</cell>
+         <cell>Draft StoryMap essays. Review course material and objectives.</cell>
+       </row>
+       <row>
+         <cell><em>Assignment</em></cell>
+         <cell><em>StoryMap Essay (due 5/8)</em></cell>
+       </row>
+     </tabular>
+
+
+     </subsection>
+    
+   </section>
+  
+
+
+  
+  
+  
+
+
+ </article>
+</pretext>
+
